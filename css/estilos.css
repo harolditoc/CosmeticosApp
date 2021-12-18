@@ -1,0 +1,49 @@
+nav{
+  text-align: right;
+  padding: 30px 50px 0 0;
+}
+
+a{
+  color:antiquewhite;
+  font-weight: bold;
+}
+
+.servicio-ind{
+  width: 28%;
+  text-align: center;
+}
+
+.contenedor{
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+nav:hover{
+  background:lightskyblue;
+  border:0.1em groove lightcyan;
+  color:black;
+  -ms-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  -webkit-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-in;
+  box-sizing: content-box;/*agranda resaltado*/
+  width: 100%;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+header{
+  width: 100%;
+  height:800px;
+  background: #000428; 
+  background: -webkit-linear-gradient(to right, hsla(208, 100%, 29%, 0.651), hsla(234, 100%, 8%, 0.63)),url(portada.jpg);
+  background: linear-gradient(to right, hsla(208, 100%, 29%, 0.651), hsla(234, 100%, 8%, 0.63)),url(imagen1.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  position: relative;
+
+}
